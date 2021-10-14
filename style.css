@@ -1,6 +1,7 @@
 html {
   background-color: rgb(240, 233, 223);
   font-family: "Andada Pro", serif;
+  margin: 5vmin;
 }
 nav ul {
   display: flex;
@@ -9,7 +10,16 @@ nav ul {
 }
 nav ul li {
   list-style-type: none;
-  font-size: 2rem;
+  font-size: 2em;
   letter-spacing: 0rem;
   word-spacing: 1rem;
+}
+.top_title {
+  margin-top: 5vmin;
+}
+.top_title h1 {
+  background-color: black;
+  color: white;
+  width: max-content;
+  font-size: 2em;
 }
