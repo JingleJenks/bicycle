@@ -1,7 +1,7 @@
 html {
   background-color: rgb(240, 233, 223);
   font-family: "Andada Pro", serif;
-  margin: 5vmin;
+  margin: 5vw;
 }
 nav ul {
   display: flex;
@@ -30,4 +30,18 @@ nav ul li {
 .top_title h2 span {
   color: brown;
   font-size: 1.5rem;
+}
+section {
+  width: 90vmin;
+}
+article {
+  width: 20vw;
+  margin: 5vw;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+img {
+  width: 16vw;
+  margin: auto;
 }
