@@ -60,12 +60,24 @@ article h1 {
   margin: 0;
   font-size: 1.5em;
   letter-spacing: 0.5em;
+  border-bottom: rgb(194, 193, 193) 0.5px solid;
+  margin-bottom: 0.5vw;
+}
+.grey_outline {
+  border: rgb(194, 193, 193) 0.5px solid;
+  padding-bottom: 0.5vw;
+}
+article ul {
+  padding-left: 0px;
 }
 article ul li {
   list-style-type: none;
+  margin-left: 1vw;
+  margin-right: 1vw;
   font-size: 1em;
   letter-spacing: 0rem;
   font-style: italic;
+  border-bottom: rgb(194, 193, 193) 0.5px solid;
 }
 article ul li span {
   color: black;
