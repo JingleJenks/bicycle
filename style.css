@@ -45,7 +45,7 @@ article {
   display: flex;
   flex-direction: column;
   padding: 1vmin;
-  color: rgb(66, 66, 66);
+  color: rgb(110, 109, 109);
 }
 img {
   width: 16vw;
@@ -78,6 +78,8 @@ article ul li {
   letter-spacing: 0rem;
   font-style: italic;
   border-bottom: rgb(194, 193, 193) 0.5px solid;
+  padding-top: 2vh;
+  padding-bottom: 0.5vh;
 }
 article ul li span {
   color: black;
