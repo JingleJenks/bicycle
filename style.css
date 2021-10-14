@@ -44,8 +44,37 @@ article {
   background-color: white;
   display: flex;
   flex-direction: column;
+  padding: 1vmin;
+  color: rgb(66, 66, 66);
 }
 img {
   width: 16vw;
+  margin: auto;
+}
+article h2 {
+  margin: 0;
+  font-size: 1em;
+  text-align: left;
+}
+article h1 {
+  margin: 0;
+  font-size: 1.5em;
+  letter-spacing: 0.5em;
+}
+article ul li {
+  list-style-type: none;
+  font-size: 1em;
+  letter-spacing: 0rem;
+  font-style: italic;
+}
+article ul li span {
+  color: black;
+}
+article p {
+  text-align: center;
+  border: 1px brown solid;
+  color: brown;
+  width: max-content;
+  padding: 0.5vw;
   margin: auto;
 }
