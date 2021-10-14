@@ -1,5 +1,6 @@
 html {
   background-color: rgb(240, 233, 223);
+  font-family: "Andada Pro", serif;
 }
 nav ul {
   display: flex;
@@ -8,5 +9,5 @@ nav ul {
 }
 nav ul li {
   list-style-type: none;
-  font-size: ;
+  font-size: 2rem;
 }
