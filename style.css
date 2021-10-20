@@ -25,8 +25,9 @@ nav ul li {
 .top_title {
   margin-top: 5vmin;
   height: auto;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 1fr 1fr;
 }
 .top_title h1 {
   background-color: black;
@@ -40,17 +41,26 @@ nav ul li {
   color: grey;
   font-size: 1.5rem;
   margin-bottom: 5vh;
+  grid-row-start: 2;
 }
-.top_title h2 span {
+.cats {
   color: brown;
   font-size: 1.5rem;
+  grid-row-start: 2;
+  display: flex;
+  flex-direction: row;
 }
 .bikes {
   width: 90vw;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-row-gap: 2vh;
+  grid-column-gap: 2vw;
   height: auto;
+}
+.bike_card {
+  width: 25vw;
 }
 article {
   width: 25vw;
