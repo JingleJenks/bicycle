@@ -41,7 +41,7 @@ nav ul li {
   color: brown;
   font-size: 1.5rem;
 }
-section {
+.bikes {
   width: 90vw;
   display: flex;
   flex-direction: row;
@@ -55,9 +55,10 @@ article {
   flex-direction: column;
   padding: 1vmin;
   color: rgb(110, 109, 109);
+  flex-wrap: wrap;
 }
 img {
-  width: 16vw;
+  width: 70%;
   margin: auto;
 }
 article h2 {
@@ -75,6 +76,7 @@ article h1 {
 .grey_outline {
   border: rgb(194, 193, 193) 0.5px solid;
   padding-bottom: 0.5vw;
+  width: 99%;
 }
 article ul {
   padding-left: 0px;
@@ -100,4 +102,48 @@ article p {
   width: max-content;
   padding: 0.5vw;
   margin: auto;
+}
+@media only screen and (min-width: 800px) and (max-width: 1000px) {
+  article h1 {
+    font-size: 1.3em;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 799px) {
+  .bikes {
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: auto;
+    flex-wrap: wrap;
+  }
+  article {
+    width: 42vw;
+    margin-bottom: 2vh;
+  }
+  img {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 499px) {
+  .bikes {
+    width: 95vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: auto;
+    flex-wrap: wrap;
+  }
+  article {
+    width: 90vw;
+    margin-bottom: 2vh;
+  }
+  article h1 {
+    font-size: 1em;
+  }
+  img {
+    width: 80%;
+  }
 }
