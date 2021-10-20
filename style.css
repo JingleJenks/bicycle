@@ -1,7 +1,11 @@
 * {
   box-sizing: border-box;
 }
-
+body,
+html {
+  padding: 0;
+  margin: 0;
+}
 html {
   background-color: rgb(240, 233, 223);
   font-family: "Andada Pro", serif;
